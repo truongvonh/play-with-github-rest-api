@@ -1,16 +1,45 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap');
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  list-style: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+input {
+  border-radius: 4px;
+}
+
+body {
+  font-family: 'Russo One', sans-serif;
+  background: rgb(33, 37, 43) url(https://wallpaperaccess.com/full/1616118.png)
+    no-repeat fixed center center;
+}
+
+.font-space {
+  font-family: 'Press Start 2P', cursive;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 8s linear;
   }
+}
+
+.fz-18 {
+  font-size: 18px !important;
+}
+
+.fz-20 {
+  font-size: 20px !important;
 }
 
 .App-header {

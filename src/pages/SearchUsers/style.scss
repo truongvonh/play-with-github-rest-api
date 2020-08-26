@@ -1,0 +1,11 @@
+$radius-common: 5px;
+
+.search-user-page {
+  .ant-input-affix-wrapper {
+    border-radius: $radius-common;
+  }
+
+  .score-user {
+    transform: scale(0.6);
+  }
+}
