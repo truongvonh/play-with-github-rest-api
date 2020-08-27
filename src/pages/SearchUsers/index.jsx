@@ -27,7 +27,6 @@ const SearchUsers = ({}) => {
           />
         </Col>
       </Row>
-
       <Row className="container mt-4">
         <Col xs={24}>
           <List
@@ -45,7 +44,11 @@ const SearchUsers = ({}) => {
                     <List.Item.Meta
                       avatar={<Avatar src={avatar_url} />}
                       title={
-                        <a href={html_url} rel="noopener noreferrer" target="_blank">
+                        <a
+                          href={html_url}
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
                           {login}
                         </a>
                       }
