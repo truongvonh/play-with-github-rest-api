@@ -76,14 +76,22 @@ const DetailUsers = ({}) => {
             <ul className="m-0 p-0">
               <li className="mb-1 text-center">
                 <h2>
-                  <a href={detailUser?.html_url} rel="noopener noreferrer" target="_blank">
+                  <a
+                    href={detailUser?.html_url}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
                     <strong>{detailUser?.name}</strong>
                   </a>
                 </h2>
               </li>
               <li className="mb-1">
                 {isValidURL(detailUser?.bio) ? (
-                  <a href={detailUser?.bio} rel="noopener noreferrer" target="_blank">
+                  <a
+                    href={detailUser?.bio}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
                     {detailUser?.bio}
                   </a>
                 ) : (
@@ -111,7 +119,7 @@ const DetailUsers = ({}) => {
             {organizations.length ? (
               <ul className="m-0 p-0 d-flex flex-wrap justify-content-center">
                 {organizations.map(({ avatar_url, login }, index) => (
-                  <li key={index} className="mx-2">
+                  <li key={index} className="m-2">
                     <Tooltip title={login}>
                       <Avatar
                         shape="square"
@@ -159,7 +167,11 @@ const DetailUsers = ({}) => {
                 <List.Item className="d-flex flex-column">
                   <Skeleton loading={loading} paragraph={{ rows: 2 }} active>
                     <h3 className="fz-18">
-                      <a href={html_url} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={html_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <strong>{name}</strong>
                       </a>
                     </h3>
