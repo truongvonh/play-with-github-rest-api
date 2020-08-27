@@ -16,7 +16,7 @@ const SearchUsers = ({}) => {
   const users = useShallowEqualSelector((store) => store[STATE_NAME].users);
 
   return (
-    <div className="search-user-page">
+    <div className="search-user-page info-user-wrapper">
       <Row className="container mt-4">
         <Col xs={24}>
           <InputDebounce
