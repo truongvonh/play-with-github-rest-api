@@ -25,7 +25,7 @@ const UserInfo = ({}) => {
         <Col xs={24} className="d-flex justify-content-center">
           <ul className="m-0 p-0">
             <li className="mb-1 text-center">
-              <h2>
+              <h2 className="user-name">
                 <a
                   href={detailUser?.html_url}
                   rel="noopener noreferrer"
