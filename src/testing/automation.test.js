@@ -3,8 +3,8 @@ import { test } from '@jest/globals';
 import axios from 'axios';
 import { randomArrayItem, sleep } from './../utils/helper';
 
-// const TEST_DOMAIN = 'http://localhost:3000';
-const TEST_DOMAIN = 'https://fast-garden-23541.herokuapp.com/';
+const TEST_DOMAIN = 'http://localhost:3000';
+// const TEST_DOMAIN = 'https://fast-garden-23541.herokuapp.com/';
 const KEY_WORD = 'golang';
 const SELECTOR = {
   INPUT_ELM: '.ant-input',
